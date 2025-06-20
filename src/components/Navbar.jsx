@@ -35,6 +35,9 @@ export default function Navbar() {
             <li className="nav-item">
               <a className="nav-link text-white" href="#contact">Contacto</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link text-white" href="#topic">Datos interesantes</a>
+            </li>
           </ul>
         </div>
       </div>

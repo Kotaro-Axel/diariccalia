@@ -1,0 +1,60 @@
+.topic-section {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #003366;
+}
+
+.topic-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.topic-content h4,
+.topic-content h5 {
+  color: #003366;
+  font-weight: 600;
+}
+
+.topic-content h5 {
+  font-size: 1.05rem;
+  margin-top: 1.2rem;
+  color: #0056b3;
+}
+
+.topic-content ul {
+  padding-left: 1.2rem;
+  list-style-type: "👉 ";
+  margin-bottom: 0.8rem;
+}
+
+.topic-content ul li {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.topic-content p {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .topic-section {
+    text-align: center;
+  }
+
+  .topic-content {
+    text-align: left;
+  }
+
+  .topic-content .row > div {
+    margin-bottom: 1.5rem;
+  }
+}

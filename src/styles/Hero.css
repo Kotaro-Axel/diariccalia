@@ -1,0 +1,8 @@
+.custom-container-bg {
+  background-color: rgba(255, 255, 255, 0.038) !important;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}

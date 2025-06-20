@@ -1,0 +1,54 @@
+.footer-section {
+  background-color: #003366;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f0f8ff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section h5 {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #b3c7e6;
+}
+
+.footer-section p {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.social-link {
+  color: #b3c7e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #ffffff;
+}
+
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 576px) {
+  .footer-section {
+    text-align: center;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+}

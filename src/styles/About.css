@@ -1,0 +1,28 @@
+.about-section {
+  background-color: #f0fbff;
+}
+
+.about-section h2 {
+  color: #208fca;
+}
+
+.about-card h5 {
+  margin-bottom: 0.5rem;
+}
+
+.about-card p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.about-icon {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    padding: 1.5rem;
+  }
+}
